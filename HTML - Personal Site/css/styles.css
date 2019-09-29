@@ -1,0 +1,48 @@
+/************TAG SELECTORS LOW PRIO***************/
+
+body {
+  background-color: #b6e6bd;
+}
+
+h1 {
+  color: #4baea0;
+}
+
+h3 {
+  color: #4baea0;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  margin-left: 0cm;
+  width: 50%;
+}
+
+img:hover {
+  background-color: #4baea0;
+}
+
+a:hover {
+  background-color: #4baea0;
+}
+
+/************CLASS SELECTORS MED PRIO***************/
+
+.circular-img {
+  border-radius: 10%;
+}
+
+.header-img {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+}
+
+/************ID SELECTORS HIGH PRIO***************/
+
+#contact-me {
+  font-size: 20px;
+}
