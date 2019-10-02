@@ -1,10 +1,50 @@
 body {
-  margin: 0;
+  color: #40514E;
   text-align: center;
+  font-family: "Merriweather", serif;
+  margin: 0;
+}
+
+a {
+  color: #4baea0;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #95b3af;
 }
 
 h1 {
-  margin-top: 0;
+  color: #4baea0;
+  font-size: 5rem;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  color: #4baea0;
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #4baea0;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted rgb(172, 182, 182) 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 /* Classes */
@@ -15,29 +55,99 @@ h1 {
 }
 
 .middle-container {
-  background-color: #7ed48d;
-  height: 200px;
-  width: 200px;
+  margin: 100px 0;
 }
 
 .bottom-container {
-  background-color: #288836;
-  height: 200px;
-  width: 200px;
+  background-color: #c8eccd;
+  padding: 50px 0 20px;
 }
 
 .top-cloud {
   position: absolute;
-  right: 510px;
-  top: 50px;
+  left: 60%;
+  top: 8%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 15%;
+  top: 50%;
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.introduction {
+  width: 30%;
+  margin: auto;
+}
+
+.profile {
+  margin-bottom: 60px;
+}
+
+.divider-text {
+  font-size: 3rem;
+  color: rgb(202, 218, 218);
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.monitor-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chili-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60%;
+}
+
+.contact-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #a4e271;
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background-color:#89c403;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #4baea1;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Montserrat", Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.contact-button:hover {
+	background-color:#4baea1;
+}
+.contact-button:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  padding: 20px 0;
 }
